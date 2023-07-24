@@ -1,0 +1,409 @@
+@media screen and (max-width: 1024px) {
+    .latestup .card{
+        width: 300px;
+    }
+
+    .latestup .card img {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        z-index: 99;
+        width: 768px;
+        padding: 15px 60px;
+    }
+
+    .navbar-brand img {
+        width: 142px;
+        height: 40px;
+    
+    }
+
+    .navbar-nav {
+        background-color: #ffffff;
+        width: 300px;
+        padding: 20px;
+        margin-left: 350px;
+        margin-top: -180px;
+        border-radius: 10px;
+    }
+    .nav-item .link1 {
+        width: 50px;
+        text-align: left;
+        color: #007CBD;
+    }
+    
+    .nav-item .link2 {
+        width: 90px;
+        text-align: left;
+        color: #007CBD;
+    }
+    
+    .nav-item .link3 {
+        width: 140px;
+        text-align: left;
+        color: #007CBD;
+    }
+
+    .nav-item .btn {
+        background-color: #007CBD;
+        width: 238px;
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+
+    .nav-item .btn a {
+        color: #ffffff;
+    }
+    
+    .navbar button {
+        background-color: #ffffff;
+    }
+    .navbar-toggler {
+        border-radius: 10px;
+    }
+
+    .hero {
+        width: 100%;
+        background-position: center;
+    }
+
+    .hero-text {
+        padding: 350px 10px;
+    }
+
+    .hero-text h5 {
+        font-size: 18px;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .hero-text p {
+        font-size: 12px;
+    }
+
+    .hero-text .btn {
+        background-color: rgba(62, 183, 221, 1);
+        width: 190px;
+        height: 35px;
+        padding: 2px 20px;
+        border-radius: 5px;
+        gap: 10px;
+        text-align: center;
+        margin: 0px 280px;
+    }
+
+    .hero-text .btn a {
+        font-size: 12px;
+    }
+
+
+    .about {
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+        padding: 50px 80px;
+        text-align: center;
+    }
+
+    .about .description {
+        padding: 30px;
+    }
+
+    .about .description h4 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .about .description p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .about .description h6 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .mekanisme {
+        height: 900px;
+        width: 100%;
+        padding: 90px 50px;
+    }
+
+    .mekanisme .card {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .mekanisme .card img {
+        padding-bottom: 25px;
+    }
+    
+    .mekanisme h1 {
+        font-size: 36px;
+    }
+    
+    .mekanisme .title-card {
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .mekanisme .date-card {
+        font-size: 10px;
+    }
+
+    .mekanisme ol {
+        font-size: 12px;
+    }
+
+    .run-logo {
+        width: 100%;
+    }
+
+    .run-logo h6{
+        font-size: 14px;
+    }
+
+    .latestup {
+        width: 100%;
+        height: 1050px;
+        padding: 10px;
+    }
+
+    footer {
+        width: 100%;
+        height: 200px;
+    }
+
+    footer img {
+        width: 150px;
+        height: 40px;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
+
+    footer h6 i {
+        margin-left: 5px;
+    }
+
+    footer .logo-sosmed {
+        padding-left: 48px;
+        padding-top: 40px;
+    }
+
+    footer small {
+        font-size: 8px;
+    }
+
+    /* regis page */
+    .header {
+        width: 100%;
+    }
+
+    .header h2 {
+        font-size: 40px;
+    }
+
+    .header .card {
+        width: 540px;
+        border-radius: 10px;
+        margin: 0 110px;
+    }
+
+    .form-control {
+        width: 500px;
+    }
+
+    .header form label {
+        font-size: 12px;
+    }
+
+    .header form label small {
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    .navbar {
+        display: none;
+    }
+
+    .hero {
+        /* background: linear-gradient(to top, rgba(9, 88, 141, 0.5), rgba(62, 183, 221, 0.5), rgba(176, 226, 248, 0.5)),  url(/assets/img/Background\ Hero\ Section.png); */
+        background:  url(/assets/img/Background\ Hero\ Section\ -\ Mobile.png);
+        width: 100%;
+        height: 736px;
+        background-repeat: no-repeat;
+    }
+
+    .hero-text {
+        padding: 200px 40px 0px 40px;
+    }
+
+    .hero-text h5 {
+        font-size: 18px;
+        text-align: left;
+        line-height: 21.94px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .hero-text p {
+        font-size: 12px;
+        text-align: left;
+        padding: 0px;
+        line-height: 14.63px;
+    }
+
+    .hero-text .btn {
+        width: 190px;
+        height: 35px;
+        margin: 0;
+        padding: 4px 10px;
+    }
+
+    .hero-text .btn a {
+        font-size: 12px;
+    }
+
+    .about {
+        width: 100%;
+        height: fit-content;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .about img {
+        width: 375px;
+    }
+
+    .about .description {
+        padding: 20px;
+    }
+
+    .about .description h4 {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .about .description p {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .about .description h6 {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    
+    .mekanisme {
+        background-image: url(/assets/img/Background\ Mekanisme\ Section\ -\ Mobile.png);
+        height: 1400px;
+        width: 100%;
+        padding: 45px 23px;
+    }
+
+    .mekanisme .card {
+        width: 369px;
+        padding: 22px;
+    }
+
+    .mekanisme .card img {
+        padding-bottom: 20px;
+    }
+
+    .mekanisme h1 {
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: -20px;
+    }
+    
+    .mekanisme .title-card {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .mekanisme .date-card {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .mekanisme ol {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    .run-logo {
+        width: 100%;
+    }
+
+    .run-logo h6 {
+        font-size: 12px;
+    }
+
+    .run-logo .btn {
+        width: 150px;
+        height: 30px;
+        padding: 2px 15px;   
+    }
+
+    .run-logo .btn a {
+    font-size: 12px;
+    }
+
+    .latestup {
+        width: 100%;
+        height: 1880px;
+        padding: 20px 48px;
+    }
+
+    .latestup h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .latestup .card{
+        width: 298px;
+        height: fit-content;
+    }
+
+    .latestup .card img {
+        width: 298px;
+    }
+
+    footer {
+        width: 100%;
+        height: 280px;
+        padding: 35px;
+    }
+
+    footer img {
+        width: 150px;
+        height: 40px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer .logo-sosmed {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    footer small {
+        font-size: 8px;
+    }
+}

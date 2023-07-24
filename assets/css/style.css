@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 99;
+    background-color: #007CBD;
+    width: 1440px;
+    height: 80px;
+    padding: 15px 100px 15px 100px;
+    gap: 202px;
+}
+
+.navbar-brand img {
+    width: 182px;
+    height: 50px;
+
+}
+
+.nav-btn {
+    width: 846px;
+    height: 37px;
+    gap: 30px;
+}
+
+
+.nav-item a {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    width: 120px;
+    height: 17px;
+}
+
+.nav-item .link1 {
+    width: 100px;
+    height: 37px;
+
+}
+
+.nav-item .link2 {
+    width: 90px;
+    height: 37px;
+}
+
+.nav-item .link3 {
+    width: 180px;
+    height: 37px;
+
+}
+
+.nav-item .btn {
+    background-color: #fff;
+    text-decoration: none;
+    width: 121px;
+    height: 37px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 100px;
+    gap: 10px;
+
+}
+
+.nav-item .btn a {
+    text-decoration: none;
+    color: #007CBD;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+}
+
+.nav-link {
+    padding: 15px;
+    gap: 10px;
+}
+
+/* hero */
+.hero {
+    /* background: linear-gradient(to top, rgba(9, 88, 141, 0.5), rgba(62, 183, 221, 0.5), rgba(176, 226, 248, 0.5)),  url(/assets/img/Background\ Hero\ Section.png); */
+    background:  url(/assets/img/Background\ Hero\ Section.png);
+    width: 1440px;
+    height: 1024px;
+}
+
+.hero-text{
+    padding: 400px 250px 400px 250px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-text h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.hero-text p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 80px 0 80px;
+}
+
+.hero-text .btn {
+    background-color: rgba(62, 183, 221, 1);
+    width: 221px;
+    height: 49px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    gap: 10px;
+    text-align: center;
+    margin: 0px 380px;
+}
+
+.hero-text .btn a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: rgba(255, 255, 255, 1);
+}
+
+/* about */
+.about {
+    width: 1440px;
+    height: 420.16px;
+    padding: 100px 210px 100px 210px;
+    gap: 10px;
+
+}
+
+.about .description {
+    padding: 30px 0 0 100px;
+}
+.about .description h4 {
+    color: #007CBD;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about .description p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about .description h6 {
+    color: #007CBD;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+/* mekanisme */
+.mekanisme {
+    background-image: url(/assets/img/Background\ Mekanisme\ Section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1000px;
+    top: 653px;
+    left: 3077px;
+    padding: 135px 320px;
+}
+
+.mekanisme h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mekanisme .card {
+    width: 851px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 17px;
+
+}
+
+.mekanisme .card img {
+    padding-bottom: 25px;
+}
+
+.mekanisme .title-card {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #007CBD;
+    margin: 20px;
+}
+
+.mekanisme .date-card {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;    
+    color: #007CBD;
+}
+
+.mekanisme ol {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B1E28;
+}
+
+.mekanisme ol b {
+    color: #3EB7DD;
+}
+
+/* run logo */
+
+.run-logo {
+    background-color: #F4FBFF;
+    width: 1440px;
+    height: 500px;
+    padding: 82px 0px 81px 0px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #007CBD;
+}
+
+#slider-container {
+    /* position: absolute; */
+    position: relative;
+    height: 150px;
+    width: 50%;
+    /* max-width: 1440px; */
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* overflow: hidden; */
+  }
+  
+  
+.slider-item {
+    width: 220px;
+    height: 110px;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+  }
+  
+.slider-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 200px;
+    max-height: 100px;
+  }
+
+  .run-logo .btn {
+    background-color: rgba(62, 183, 221, 1);
+    width: 221px;
+    height: 49px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    gap: 10px;
+
+}
+
+.run-logo .btn a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: rgba(255, 255, 255, 1);
+}
+
+/* latest update */
+
+.latestup {
+    width: 1440px;
+    height: 800px;
+    padding: 56px 163px 56px 163px;
+    background-color: #F4FBFF;
+}
+
+.latestup h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #007CBD;
+}
+
+.latestup .row {
+    margin-top: 40px;
+}
+
+.latestup .card{
+    width: 348px;
+    /* height: 270px; */
+    background-color: #F4FBFF;
+    border: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.latestup .card img {
+    width: 348px;
+    border-radius: 8px;
+    gap: 10px;
+    transition: transform .5s ease
+}
+.latestup .card:hover img {
+    transform: scale(1.1);
+
+}
+
+.latestup .card:hover p {
+    color: #007CBD;
+}
+
+.latestup .card .card-body {
+    padding: 20px 0;
+}
+
+.latestup .card .card-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.latestup .card .card-body .card-stat {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7A7B7E;
+}
+
+footer {
+    width: 1440px;
+    height: 244px;
+    padding: 30px 35px 30px 49px;
+    background-color: #007CBD;
+}
+
+footer img {
+    width: 250px;
+    height: 66px;
+    padding: 0px 0.003173828125px 0px 0px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+footer .logo-sosmed {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+footer h6 i {
+    gap: 30px;
+    margin-right: 12px;
+}
+
+footer small {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* regis page */
+
+.header {
+    background-image: url(/assets/img/Background\ Header\ Title.png);
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    margin-right: 0;
+    width: 1450px;
+    height: 1300px;
+    padding: 200px 0px;
+}
+.header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header .card {
+    width: 640px;
+    height: 950px;
+    padding: 30px 20px;
+    border-radius: 16px;
+    gap: 20px;
+    margin: 0 400px;
+}
+
+.form-control {
+    background-color: #F8F8F8;
+    border: 0;
+    width: 600px;
+    height: 44px;
+    border-radius: 8px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header form label {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #071424;
+}
+
+.header form label small {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ff0000;
+}
+
+.header small {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#floatingTextarea2 {
+    height: 120px;
+}
+
+#floatingInputGroup2 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.form-floating li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+form #button {
+    width: 160px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #007CBD;
+    
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+form .form-check label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #071424;
+}
+
+form .btn {
+    border: 0;
+    width: 250px;
+    height: 49px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: #007CBD;
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
